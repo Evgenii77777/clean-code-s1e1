@@ -11,7 +11,6 @@ input,
 button {
   outline: none;
 }
-
 .page {
   background-color: #f8f8f8;
   color: #333;
@@ -87,7 +86,6 @@ button:hover {
 .task:focus {
   color: #333;
 }
-
 /* New Task */
 .main__label {
   display: block;
@@ -96,7 +94,6 @@ button:hover {
 #new-task {
   width: 318px;
 }
-
 /* Task list */
 .item {
   overflow: hidden;
@@ -109,7 +106,6 @@ button:hover {
 .item > * {
   vertical-align: middle;
 }
-
 .item__input {
   margin: 0 10px;
 }
@@ -130,23 +126,19 @@ button:hover {
 .delete__image:hover {
   transform: rotateZ(0);
 }
-
 /* Completed */
 #completed label {
   text-decoration: line-through;
   color: #888;
 }
-
 /* Edit Task */
 ul li input[type="text"] {
   display: none;
 }
-
 .edit-mode input[type="text"] {
   display: inline-block;
   width: 224px;
 }
-
 .edit-mode label {
   display: none;
 }
