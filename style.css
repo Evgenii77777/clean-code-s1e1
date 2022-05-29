@@ -1,10 +1,10 @@
 /* Basic Style */
-ul {
+.list {
   margin: 0;
   padding: 0px;
 }
-li,
-h3 {
+.item,
+.title {
   list-style: none;
 }
 input,
